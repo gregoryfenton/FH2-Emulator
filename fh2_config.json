@@ -1,0 +1,49 @@
+{
+  "version": "v4.2",
+  "window": {
+    "width": 600,
+    "height": 400,
+    "x": 100,
+    "y": 100,
+    "log": {
+      "width": 600,
+      "height": 300,
+      "x": 150,
+      "y": 150,
+      "visible": false
+    },
+    "changelog": {
+      "width": 600,
+      "height": 400,
+      "x": 200,
+      "y": 200
+    }
+  },
+  "serial": {
+    "port": "COM1",
+    "baudrate": 19200,
+    "parity": "N",
+    "stopbits": 1,
+    "bytesize": 8,
+    "timeout": 0.1
+  },
+  "cat_commands": {
+    "FT-710": {
+      "General": {
+        "VRF": "Set VFO frequency",
+        "MD": "Mode change",
+        "BI": "Break-in on/off"
+      },
+      "Memory": {
+        "MR": "Memory recall",
+        "MS": "Memory store"
+      },
+      "Function": {
+        "TX": "Transmit on/off",
+        "SQL": "Squelch control"
+      }
+    }
+  },
+  "show_debug_log": false,
+  "show_cat_info": false
+}
